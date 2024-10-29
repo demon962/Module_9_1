@@ -60,12 +60,10 @@ class Fruit(Plant):
         return f"{self.name} созревает."
 
 
-# Создание объектов классов
 lion = Predator("Лев", 5, "Саванна", "рыжий", "зебра")
 rose = Flower("Роза", 2, "Сад", "красный")
 apple = Fruit("Яблоня", 3, "Сад", "сладкий")
 
-# Примеры использования методов
 print(lion.eat())
 print(lion.hunt())
 print(rose.grow())
